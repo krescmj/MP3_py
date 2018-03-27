@@ -5,7 +5,7 @@ conn = hb.Connection()
 
 table = conn.table('powers')
 
-with open(input.csv) as csvfile:
+with open('input.csv') as csvfile:
 	data = csv.reader(csvfile, delimiter=',')
 	for row in data:
 		data = {
