@@ -11,8 +11,8 @@ with open('input.csv') as csvfile:
 		data = {
 			b'personal:hero':     row[1],
 			b'personal:power':    row[2],
-			b'professional:xp':   row[3],
-			b'professional:name': row[4],
+			b'professional:name': row[3],
+			b'professional:xp':   row[4],
 			b'custom:color':      row[5]
 		}
 
