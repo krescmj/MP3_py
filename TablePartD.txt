@@ -1,0 +1,3 @@
+hero: b'yes', power: b'fly', name: b'100', xp: b'batman', color: b'black'
+hero: b'no', color: b'green'
+hero: b'yes', name: b'100', color: b'black'
